@@ -1,4 +1,12 @@
 
+root = {}
+root['Page']['Python']['defaultdict']['Title'] = 'Using defaultdict'
+root['Page']['Python']['defaultdict']['Subtitle'] = 'Create a tree'
+root['Page']['Java'] = None
+
+print(json.dumps(root, indent=4))
+
+
 ### 跑出一個 Bash Terminal on the docker 
 ```python runnable
 # {
