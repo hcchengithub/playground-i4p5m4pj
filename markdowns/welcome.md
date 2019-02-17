@@ -1,3 +1,23 @@
+```python runnable
+# {
+# autofold
+# Please ignore this part
+print("TECHIO> terminal -i \"python3 main.py\"")
+print("\033[2J")
+# }
+from random import randint
+
+number_to_guess = randint(0, 100)
+n = int(input('Guess my number! '))
+while n != number_to_guess:
+    if n < number_to_guess:
+        print('Too small!')
+    else:
+        print('Too big!')
+    n = int(input('Try again: '))
+print('Congratulation! You found it!')
+```
+
 # Welcome to Python Project Template!
 
 This Python template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
