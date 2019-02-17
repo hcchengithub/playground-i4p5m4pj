@@ -1,3 +1,5 @@
+
+### 跑出一個 Bash Terminal on the docker 
 ```python runnable
 # {
 # autofold
@@ -5,17 +7,7 @@
 print("TECHIO> terminal -i \"python3 main.py\"")
 print("\033[2J")
 # }
-from random import randint
-
-number_to_guess = randint(0, 100)
-n = int(input('Guess my number! '))
-while n != number_to_guess:
-    if n < number_to_guess:
-        print('Too small!')
-    else:
-        print('Too big!')
-    n = int(input('Try again: '))
-print('Congratulation! You found it!')
+input('Press Enter')  # 一定要有個 input() 否則會馬上 stopped 啥事都不能做。
 ```
 
 # Welcome to Python Project Template!
